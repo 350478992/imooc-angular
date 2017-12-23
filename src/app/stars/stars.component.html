@@ -1,0 +1,4 @@
+<span *ngFor="let star of stars; let i = index;"
+      [class.glyphicon-star-empty]="star"
+      (click)="clickStar(i)"
+      class="glyphicon glyphicon-star"></span>
